@@ -187,7 +187,7 @@ $(document).ready(function () {
             title: "Graham and Jenn's ",
 
             // Event start date
-            start: new Date('Jun 25, 2022 16:00'),
+            start: new Date('Jun 25, 2022 14:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
@@ -197,7 +197,7 @@ $(document).ready(function () {
             end: new Date('Jun 25, 2022 22:00'),
 
             // Event Address
-            address: '1594 Edgewater St NW #110, Salem, OR 97304',
+            address: '33814 S Meridian Rd, Woodburn, OR 97071',
 
             // Event Description
             description: "We can't wait to see you on our big day. For event details, please see https://wedding.contactgraham.link."
