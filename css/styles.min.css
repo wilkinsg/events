@@ -58,8 +58,7 @@ h5 {
 }
 .btn-white:hover,
 .btn-white:focus {
-    color: #6b00b3;
-    border-color: #6b00b3;
+    border-color: #d699ff;
 }
 .btn-fill {
     color: #fff;
@@ -417,7 +416,7 @@ header ul.primary-nav li a {
     padding-right: 25px;
 }
 header ul.primary-nav li a:hover {
-    color: #6b00b3;
+    color: #d699ff;
 }
 header ul.primary-nav li:last-child a {
     padding-right: 0px;
@@ -429,7 +428,7 @@ header ul.member-actions li a {
     color: #fff;
 }
 header ul.member-actions li a:hover {
-    color: #ebccff;
+    color: #d699ff;
 }
 header .header-nav {
     display: inline-block;
