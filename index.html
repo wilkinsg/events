@@ -46,12 +46,12 @@
                 <div class="header-nav">
                     <nav>
                         <ul class="primary-nav">
+                            <li><a href="#events">Event</a></li>
+                            <li><a href="#map">Venue</a></li>
                             <li><a href="#intro">How we met</a></li>
-                            <li><a href="#events">Events</a></li>
                             <li><a href="#eng-pics">Photos</a></li>
                         </ul>
                         <ul class="member-actions">
-                            <li><a href="#map" class="login">Venue</a></li>
                             <li><a href="#rsvp" class="btn-white btn-small">RSVP</a></li>
                         </ul>
                     </nav>
@@ -91,32 +91,6 @@
                 <h3>June 25<sup>th</sup>, 2022 • Woodburn, Oregon</h3>
                 <p>We tied the knot privately last summer, and now it's time to celebrate!</p>
             </div>
-        </div>
-    </div>
-</section>
-
-<section id="intro">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12 text-center">
-                <h3 class="header">How we met</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/slidein_left.png" class="wp1"></div>
-            <div class="col-md-6">
-                <p>
-                    We met on Bumble, hit the ground running and never stopped.
-                </p>
-                <p>
-                    Our first date was in January 2018, and exactly 3 years later, Graham proposed.
-                </p>
-            </div>
-            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/slidein_right.png" class="wp2"></div>
-        </div>
-        <div class="row">
-            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/slidein_left.png" class="wp8"></div>
-            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/slidein_right.png" class="wp9"></div>
         </div>
     </div>
 </section>
@@ -194,6 +168,74 @@
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+</section>
+
+<section id="video-bg" class="hidden-sm hidden-xs">
+    <div id="bgndVideo" class="player"
+         data-property="{videoURL:'https://youtu.be/F3N5puf6fLM',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:0, stopAt:30, opacity:1}">
+    </div>
+    <div id="video-content">
+        <h5>Wooden Shoe Tulip Farm</h5>
+        <p>Woodburn, Oregon</p>
+    </div>
+</section>
+
+<section id="map" class="section-padding">
+    <div class="text-center">
+        <h3>How do I get there?</h3>
+        <p>We will be in the garden at the Wooden Shoe Tulip Farm in Woodburn Oregon.
+            <br>There is ample parking in the gravel lot, straight ahead after entering from Meridian Road.</p>
+    </div>
+    <div id="map-canvas"></div>
+    <div id="map-content-wrapper" class="container pointer-events-none">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                <div class="text-center">
+                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
+                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
+                    </div>
+                </div>
+                <div id="map-content" class="pointer-events-auto">
+                    <div class="row text-center">
+                        <div class="col-md-6">
+                            <h5>Wooden Shoe Tulip Farm</h5>
+                            <p>33814 S Meridian Rd, Woodburn, OR 97071</p>
+                        </div>
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-fill btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
+                                map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">How we met</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/slidein_left.png" class="wp1"></div>
+            <div class="col-md-6">
+                <p>
+                    We met on Bumble, hit the ground running and never stopped.
+                </p>
+                <p>
+                    Our first date was in January 2018, and exactly 3 years later, Graham proposed.
+                </p>
+            </div>
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/slidein_right.png" class="wp2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/slidein_left.png" class="wp8"></div>
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/slidein_right.png" class="wp9"></div>
+        </div>
+    </div>
 </section>
 
 <section id="eng-pics" class="section-padding">
@@ -279,48 +321,6 @@
             </div>
         </div>
     </div>-->
-</section>
-
-<section id="video-bg" class="hidden-sm hidden-xs">
-    <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://youtu.be/F3N5puf6fLM',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:0, stopAt:30, opacity:1}">
-    </div>
-    <div id="video-content">
-        <h5>Wooden Shoe Tulip Farm</h5>
-        <p>Woodburn, Oregon</p>
-    </div>
-</section>
-
-<section id="map" class="section-padding">
-    <div class="text-center">
-        <h3>How do I get there?</h3>
-        <p>We will be in the garden at the Wooden Shoe Tulip Farm in Woodburn Oregon.
-            <br>There is ample parking in the gravel lot, straight ahead after entering from Meridian Road.</p>
-    </div>
-    <div id="map-canvas"></div>
-    <div id="map-content-wrapper" class="container pointer-events-none">
-        <div class="row">
-            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
-                <div class="text-center">
-                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
-                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Show info
-                    </div>
-                </div>
-                <div id="map-content" class="pointer-events-auto">
-                    <div class="row text-center">
-                        <div class="col-md-6">
-                            <h5>Wooden Shoe Tulip Farm</h5>
-                            <p>33814 S Meridian Rd, Woodburn, OR 97071</p>
-                        </div>
-                        <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-fill btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
-                                map</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 </section>
 
 <section class="rsvp text-center" id="rsvp">
