@@ -76,6 +76,30 @@ h5 {
     background-color: #ad33ff;
     border-color: #ad33ff;
 }
+.btn-amazon {
+    font-weight: bold;
+    color: #000;
+    border: solid 2px #000;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #f79b34;
+    font-size: 13px;
+    padding: 15px 40px;
+}
+.btn-venmo {
+    font-weight: bold;
+    color: #fff;
+    border: solid 2px #000;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #3f93cf;
+    font-size: 13px;
+    padding: 15px 40px;
+}
 .btn-small {
     padding: 8px 30px;
 }
@@ -93,6 +117,9 @@ section.rsvp {
 section.features,
 section.events,
 section.blog {
+    background: #f8f9fd;
+}
+section.registry {
     background: #f8f9fd;
 }
 .group:after {
